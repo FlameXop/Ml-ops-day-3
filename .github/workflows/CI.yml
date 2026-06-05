@@ -28,10 +28,10 @@ jobs:
       - name: Run pytest
         env:
           PYTHONPATH: day3_pipeline
-        run: pytest day3_pipeline/test/test.py
+        run: pytest day_3_pipeline/test/test.py
 
 
 
       - name: Execute Pipeline
         run: |
-          python day3_pipeline/main.py
+          python day_3_pipeline/main.py
